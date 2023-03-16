@@ -1,0 +1,42 @@
+footer {
+    background-color: var(--color-primary);
+    padding: 1.8rem;
+    text-align: center;
+    margin-top: 7rem;
+    height: 16rem;
+    color: black;
+    
+}
+
+.footerTitle{
+    color: var(--color-white);
+}
+
+footer .linkToSections {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    gap: 3rem;
+    justify-content: center;
+}
+
+footer a {
+    color: black;
+}
+
+.copyrightSection {
+    color: var(--color-secondary);
+}
+
+/* Media queries small */
+@media screen and  (max-width:600px) {
+    footer .linkToSections {
+        display: flex;
+        font-size: 0.9rem;
+        font-weight: bold;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+
+}

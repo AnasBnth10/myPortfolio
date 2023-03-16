@@ -1,0 +1,123 @@
+#contactBoxes {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.contactBox {
+    background-color: var(--color-primary);
+    width: 33%;
+    padding: 2rem;
+    color: black;
+    text-align: center;
+    border-bottom-left-radius: 30%;
+}
+
+.contactBox h3 {
+    color: var(--color-secondary);
+}
+.contactBoxIcon {
+    width: 100px;
+}
+
+#contactBoxContent {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-size: 1.2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#contactBoxContent a {
+    color: white;
+    
+}
+
+#contactBoxContent a:hover {
+    color: black;
+
+}
+
+#contactForm {
+    margin: 0 5rem;
+    margin-bottom: 8rem;
+}
+
+.succesMessage {
+    color: green;
+}
+
+.contactFormBtn {
+    background-color: var(--color-primary);
+    color: black;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 25%;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-top: 2rem;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 0.5rem;
+}
+
+.contactFormBtn:hover {
+    background-color: var(--color-secondary);
+    color: black;
+}
+
+#contactForm input,#contactForm textarea {
+    width: 100%;
+    border-radius: 0.3rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+}
+
+#contactForm textarea {
+    height: 15rem;
+    
+}
+
+/* Media queries small */
+@media screen and  (max-width:600px) {
+    #contactBoxes {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contactBox {
+        width: 100%;
+    }
+
+    #contactForm {
+        margin: 0;
+    }
+
+    .contactFormBtn{
+        width: 100%;
+    }
+
+
+}
+
+/* Media queries small */
+@media screen and  (max-width:1024px) {
+    #contactBoxes {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contactBox {
+        width: 100%;
+    }
+
+    #contactForm {
+        margin: 0;
+    }
+    
+}

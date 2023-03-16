@@ -1,0 +1,35 @@
+.aboutMeBox {
+    background-color: var(--color-primary);
+    padding: 1.8rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: var(--color-secondary);
+    font-weight: bold;
+    height: 14rem;    
+    
+}
+
+.aboutBoxIcon {
+    margin-top: 2rem;
+}
+
+.aboutMeBox  p {
+
+color: black;
+text-align: center;
+
+}
+
+ 
+@media screen and  (max-width:600px) {
+
+    .aboutMeBox  {
+        height: 12rem;
+    }
+
+    .aboutBoxIcon {
+        margin-top: 0rem;
+    }
+}
+
+

@@ -1,0 +1,26 @@
+nav {
+    background-color: var(--color-primary);
+    width: max-content;
+    
+    padding: 0.7rem 1.7rem;
+    
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+}
+
+nav a {
+    color: black;
+    border-radius: 50%;
+    padding: 0.5rem;
+    
+}
+
+.activeMenu {
+    background-color: var(--color-secondary);
+    
+}

@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    padding-top: 7rem;
+    background-color: bisque; 
+    padding-bottom: 2rem;
+}
+
+.headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.profileImage{
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 2rem;
+    
+    
+}
+
+
+.header_buttons {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    
+}
+
+
+
+/* Media queries small */
+@media screen and  (max-width:600px) {
+
+    .headerRow {
+        display: block;
+    }
+
+    .certificationImage {
+        display: none;
+    } 
+}
+
+
+
+
+

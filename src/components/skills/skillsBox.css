@@ -1,0 +1,37 @@
+.skillBox {
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+    padding: 1.8rem;
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+.skills_columns {
+margin-top: 0.8rem;
+display: flex;
+
+
+
+
+}
+
+.skills_column {
+    width: 50%;
+   
+    
+}
+
+.skill {
+    display: flex;
+    gap: 0.4rem;
+    
+}
+
+.skill h4 {
+    color: white;
+}
+

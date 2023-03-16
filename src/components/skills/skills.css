@@ -1,0 +1,88 @@
+.skillsSections {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+
+}
+
+.office365,
+.programmingLanguages {
+    background-color: var(--color-secondary);
+}
+.skillsSection_col {
+    width: 50%;
+}
+
+.skillsSection_col article {
+    display: flex;
+
+    gap: 0.5rem;
+}
+.skillsSection_col article h4 {
+    color: white;
+}
+
+/* Media queries small */
+@media screen and (max-width:600px) {
+
+    .skillsSections {
+        display: block;
+        margin: 0;
+    }
+
+    #skillsSection_row2 {
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+    #office365 {
+        order: 2;
+
+    }
+
+    #otherSection {
+        order: 1;
+    }
+
+    .skillsSections div {
+        width: 100%;
+    }
+
+}
+
+/* Media queries small */
+@media screen and (max-width:1024px) {
+
+    .skillsSections {
+        display: block;
+        margin: 0;
+        gap: 0;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    #other {
+        order: 1;
+    }
+
+    #office365 {
+        order: 2;
+
+    }
+
+    .skillsSections div {
+        width: 100%;
+    }
+
+    #otherSection {
+        order: 1;
+    }
+}
