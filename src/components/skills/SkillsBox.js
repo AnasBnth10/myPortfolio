@@ -14,7 +14,7 @@ function SkillsBox(props) {
 for (let i = 0;  i <= middleOfArray;i++) {
   skills_col1.push (<article className='skill'>
       <SiHashnode/>
-      <h4>{props.skills[i]}</h4>
+      <h4>{props.skills[i].name}</h4>
   </article>);
 }
 
@@ -26,7 +26,7 @@ for (let i = (middleOfArray + 1);  i < props.skills.length ;i++) {
       <SiHashnode/>
 
       
-      <h4>{props.skills[i]}</h4>
+      <h4>{props.skills[i].name}</h4>
   </article>);
 }
 
